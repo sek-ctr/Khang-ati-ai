@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KHANG'ATI AI</title>
+<style>
+body {
+  margin: 0;
+  background: #080512;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+header {
+  padding: 25px;
+  color: #c084fc;
+  font-size: 28px;
+  font-weight: bold;
+}
+main { padding: 25px; }
+.card {
+  background: #19112b;
+  border: 1px solid #7836b8;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 400px;
+}
+button {
+  background: #8b35d1;
+  color: white;
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+input {
+  padding: 12px;
+  width: 80%;
+  border-radius: 8px;
+  border: 0;
+}
+</style>
+</head>
+<body>
+<header>KHANG'ATI AI</header>
+<main>
+<h1>Your AI World</h1>
+<p>Imagine. Create. Achieve.</p>
+
+<div class="card">
+<h2>AI Chat</h2>
+<p>Chat with your AI assistant.</p>
+<button onclick="alert('AI Chat coming soon!')">Open Chat</button>
+</div>
+
+<div class="card">
+<h2>AI Image Studio</h2>
+<p>Create and edit amazing images.</p>
+<button onclick="alert('Image Studio coming soon!')">Create Image</button>
+</div>
+
+<div class="card">
+<h2>AI Video Studio</h2>
+<p>Turn photos into moving videos.</p>
+<button onclick="alert('Video Studio coming soon!')">Create Video</button>
+</div>
+
+<div class="card">
+<h2>Voice Assistant</h2>
+<p>Talk to your AI assistant.</p>
+<button onclick="alert('Voice Assistant coming soon!')">Start Voice</button>
+</div>
+
+<div class="card">
+<h2>Writing Studio</h2>
+<p>Write stories, emails and more.</p>
+<button onclick="alert('Writing Studio coming soon!')">Start Writing</button>
+</div>
+
+<div class="card">
+<h2>Coding Assistant</h2>
+<p>Get help building software.</p>
+<button onclick="alert('Coding Assistant coming soon!')">Start Coding</button>
+</div>
+</main>
+</body>
+</html>
